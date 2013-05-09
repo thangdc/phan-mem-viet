@@ -19,7 +19,15 @@
 </head>
 
 <body>
-
+  <div id="fb-root"></div>
+  <script>(function(d, s, id) {
+    var js, fjs = d.getElementsByTagName(s)[0];
+    if (d.getElementById(id)) return;
+    js = d.createElement(s); js.id = id;
+    js.src = "//connect.facebook.net/en_US/all.js#xfbml=1&appId=545094122199805";
+    fjs.parentNode.insertBefore(js, fjs);
+  }(document, 'script', 'facebook-jssdk'));</script>
+  
   <div class="wrapper">
     <header>
       <h1 class="title">Phần mềm việt</h1>
@@ -28,7 +36,7 @@
       <p class="tagline">Phần mềm, tiện ích, thủ thuật dành cho người Việt</p>
       <div id="main" role="main">
         <article class="markdown-body">
-          <p>&nbsp;</p>
+          <p class="fb-like" data-href="http://phanmemviet.thangdc.com/" data-send="false" data-layout="button_count" data-width="450" data-show-faces="true"></p>
           <h3>Phần mềm tải toàn bộ Album nhạc VN - Album Downloader.</h3>
           <p>Với mong muốn tạo ra một phần mềm Việt đơn giản dễ sử dụng nên mình viết phần mềm tải nhạc từ các trang nhạc số của Việt Nam, để giúp mọi người có thể tải nhạc nhanh chóng đơn giản và tiện lợi.</p>
           <h3>Tải nhạc không lời trên trang WOIM.NET - WOIM Downloader</h3>
