@@ -1,0 +1,29 @@
+{
+  "data": [
+    { 
+      "display": "Phần Mềm Việt",
+      "value": "http://1.bp.blogspot.com/-Rmn4IVj-sHo/VdhRliaYTDI/AAAAAAAAJZo/UdOGiPmLGAQ/s1600/LogoThangDC.png",
+      "type": "image"
+      "order": 0
+    },
+    {
+      "display": "Tên Sản Phẩm",
+      "value": "QR Code",
+      "type": "text",
+      "order": 1
+    },
+    {
+      "display": "Mô tả",
+      "value": "Phần mềm hỗ trợ tạo mã QR Code với số lượng lớn từ excel, và có thể tự thiết kế một mã QR Code phù hợp với nhu cầu của người sử dụng",
+      "type": "text",
+      "order": 2
+    },
+    {
+      "display": "Giá",
+      "value": "3,000,000 VNĐ",
+      "type": "text",
+      "order": 3
+    }
+  ],
+  "button": { display: "Xem chi tiết", url: "http://vietsofts.thangdc.com/tao-quan-ly-qr-code.html" }
+}
